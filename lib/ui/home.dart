@@ -10,6 +10,8 @@ class Home extends StatelessWidget {
       appBar: new AppBar(
         title: Text("Not ToDo App"),
         backgroundColor: Colors.black87,
+        centerTitle: true,
+
       ),
       body: new NotToDoScreen(),
     );
